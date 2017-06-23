@@ -1,10 +1,10 @@
 // Write your code here
 module.exports = Person= {
 　　　　createNew: function(){
-　　　　　　var Person = {};
+　　　　　　var person = {};
            var age;
            var name;
-　　　　　　Person.sleep = function(){ return "My name is Tom. I am 21 years old."; };
-　　　　　　return Person;
+　　　　　　person.sleep = function(){ return "My name is Tom. I am 21 years old."; };
+　　　　　　return person;
 　　　　}
 　　};
